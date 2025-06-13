@@ -66,10 +66,10 @@ export default function HeroSection() {
         </div>
 
         {/* Main Content */}
-        <div className="absolute z-10 w-full h-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-28 3xl:px-40 4xl:px-64 4k:px-96 text-white">
+        <div className="absolute z-10 w-full mt-[-2px] h-full flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-28 3xl:px-40 4xl:px-64 4k:px-96 text-white">
 
           {/* LEFT */}
-          <div className="w-full mt-[70px] md:w-1/2 flex flex-col justify-center h-full space-y-3 sm:space-y-4 md:space-y-6 lg:space-y-8 4xl:space-y-12 4k:space-y-16 pl-5">
+          <div className="w-full mt-[-70px] md:w-1/2 flex flex-col justify-center h-full space-y-3 sm:space-y-4 md:space-y-6 lg:space-y-8 4xl:space-y-12 4k:space-y-16 pl-5">
             <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-3xl lg:text-5xl 2xl:text-8xl 3xl:text-7xl 4xl:text-8xl 4k:text-6xl font-extrabold drop-shadow-lg leading-tight">
               Capture Your Bump
             </h1>
