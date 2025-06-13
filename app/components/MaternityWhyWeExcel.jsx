@@ -72,9 +72,9 @@ export default function MaternityWhyWeExcel() {
     </div>
 
     {/* Final Note */}
-    <div className="text-center mt-2 ">
-      <Truck className="mx-auto text-pink-500 w-auto h-7 md:h-[-20px] animate-bounce" />
-      <p className="text-sm text-gray-700 font-medium ">
+    <div className="text-center mt-4 mb-4 ">
+      <Truck className="mx-auto text-pink-500 w-auto h-7 md:h-[-10px] animate-bounce" />
+      <p className="text-sm text-gray-700  font-medium ">
         We deliver love-filled memories right to your doorstep—from London and everywhere in between.
       </p>
     </div>

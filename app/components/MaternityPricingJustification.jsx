@@ -51,23 +51,23 @@ export default function MaternityPricingJustification() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 2xl:grid-cols-6 lg:grid-cols-3 gap-10 gap-x-4 sm:gap-x-2 gap-y-10 2xl:gap-68 2xl:mr-[500px] place-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-2 2xl:grid-cols-6 lg:grid-cols-3 gap-10 gap-x-4 sm:gap-x-4 gap-y-10 2xl:gap-68  place-items-center">
           {items.map(({ icon, title, desc }, i) => (
             <div
               key={i}
-              className="group bg-white border border-pink-100 rounded-full shadow-md w-44 h-44 sm:w-48 sm:h-48 lg:w-64 lg:h-64 p-4 flex flex-col items-center text-center relative transition-all duration-300 hover:shadow-xl hover:scale-105"
+              className="group bg-white border border-pink-100 rounded-full shadow-md w-37 h-37 sm:w-44 sm:h-44 lg:w-64 lg:h-64 p-4 flex flex-col items-center text-center relative transition-all duration-300 hover:shadow-xl hover:scale-105"
             >
               {/* Emoji Icon Circle with bounce */}
               <div className="absolute -top-6 flex justify-center w-full">
-                <div className="bg-pink-100 rounded-full w-13 h-13 flex items-center justify-center text-3xl sm:text-3xl shadow-md ring-1 ring-pink-300 transition-transform duration-300 group-hover:animate-bounce">
+                <div className="bg-pink-100 rounded-full w-10 h-10 flex items-center justify-center text-3xl sm:text-3xl shadow-md ring-1 ring-pink-300 transition-transform duration-300 group-hover:animate-bounce">
                   {icon}
                 </div>
               </div>
 
               {/* Content */}
-              <div className="mt-10 flex flex-col justify-center flex-grow px-2">
-                <h3 className="text-sm sm:text-base font-semibold text-blue-500 mb-1 mt-[-12px]">{title}</h3>
-                <p className="text-[10px] sm:text-xs md:mt-4 lg:text-sm text-gray-600 leading-snug">{desc}</p>
+              <div className="mt-10 flex flex-col justify-center flex-grow ">
+                <h3 className="text-[10px] sm:text-base font-semibold text-blue-500 mb-1 mt-[-12px]">{title}</h3>
+                <p className="text-[9px] md:text-[8px] sm:text-xs md:mt-[-1px]  lg:mt-[10px] lg:text-sm text-gray-600 leading-snug">{desc}</p>
               </div>
             </div>
           ))}

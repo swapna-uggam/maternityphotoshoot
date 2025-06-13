@@ -12,7 +12,7 @@ import {
 
 export default function ContactSection() {
   return (
-    <section className="bg-white pb-6 dark:bg-gray-900 text-black dark:text-white mt-7 py-14 px-4">
+    <section className="bg-white pb-6 lg:mt-15 dark:bg-gray-900 text-black dark:text-white mt-7 py-14 px-4">
       {/* Section: Connect With Us */}
       <div className="text-center mb-12 border-b border-gray-300 dark:border-gray-700 pb-10">
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Connect With Us</h2>

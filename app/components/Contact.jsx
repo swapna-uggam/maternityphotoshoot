@@ -399,7 +399,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="Contact" className="bg-pink-50 py-6 relative overflow-hidden">
+    <section id="Contact" className="bg-pink-50 py-6 lg:pb-1 relative overflow-hidden">
       {/* Enhanced Camera Flash Effect */}
       <AnimatePresence>
         {showFlash && (
@@ -414,7 +414,7 @@ export default function Contact() {
         )}
       </AnimatePresence>
 
-      <main className=" mx-auto px-4 sm:px-6 lg:px-8">
+      <main className=" mx-auto px-4 lg:pb-1 sm:px-6 lg:px-8">
         <div className=" mx-auto text-center mb-16">
           <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4">Contact Our Maternity Photographers</h1>
           <p className="text-gray-600 text-xs sm:text-base 2xl:text-4xl">
@@ -580,7 +580,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Info Section */}
-          <div className="w-full h-auto mt-[-20px] flex flex-col">
+          <div className="w-full h-auto mt-[-20px] lg:mt-0.5 flex flex-col">
             <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100 relative overflow-hidden" style={{ maxHeight: '480px' }}>
               {/* Floating Camera Animation - Now in background */}
               <motion.div 

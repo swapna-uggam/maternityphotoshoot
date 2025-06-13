@@ -32,7 +32,7 @@ export default function GallerySection() {
 
   return (
     <section id="gallery" ref={galleryRef} className="bg-white py-10 px-3 sm:px-6 md:mt-[-20px] md:py-10">
-      <div className="max-w-5xl mx-auto mt-[-65px] md:mt-[-30px] text-center mb-10">
+      <div className="max-w-5xl mx-auto mt-[-41px] md:mt-[-30px] text-center mb-10">
         <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-3">
           Maternity Photography Gallery
         </h2>
