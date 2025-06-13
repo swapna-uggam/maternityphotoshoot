@@ -50,10 +50,10 @@ export default function PhotographyJourney() {
   return (
     <section className="py-6 px-6 bg-blue-50 rounded-xl">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-4xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4 text-center">
           Your Photography Journey
         </h2>
-        <p className="text-gray-700 mb-12 text-center">
+        <p className="text-gray-700 mb-12 text-xs sm:text-base 2xl:text-4xl text-center">
           Here's what to expect when you work with us
         </p>
 
@@ -61,7 +61,7 @@ export default function PhotographyJourney() {
           {/* Vertical line for steps (desktop only) */}
           <div className="hidden md:block absolute left-6 top-0 h-full w-1 bg-blue-200 rounded" />
 
-          <div className="space-y-10">
+          <div className="space-y-3">
             {steps.map((step, index) => {
               const isFirst = index === 0;
               const blinkClass =
@@ -87,14 +87,14 @@ export default function PhotographyJourney() {
                   {/* Line connector (mobile) */}
                   <div
                     className={`absolute left-[24px] top-12 h-full w-1 ${
-                      isFirst ? 'bg-pink-400' : 'bg-pink-200'
+                      isFirst ? 'bg-blue-400' : 'bg-blue-200'
                     } md:hidden`}
                   />
 
                   {/* Step content */}
                   <div className="bg-white p-6 rounded-xl shadow-md w-full">
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{step.title}</h3>
-                    <p className="text-gray-600">{step.description}</p>
+                    <h3 className="text-sm lg:text-xl font-semibold text-gray-900 mb-2">{step.title}</h3>
+                    <p className="text-[10px] lg:text-lg text-gray-600">{step.description}</p>
                   </div>
                 </div>
               );

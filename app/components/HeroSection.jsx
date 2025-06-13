@@ -46,8 +46,8 @@ export default function HeroSection() {
   const { name, rating, text } = reviews[currentReview];
 
   return (
-    <div className="w-full overflow-hidden">
-      <section className="relative w-full h-screen overflow-hidden">
+    <div className="w-full mt-[-10px] overflow-hidden">
+      <section className="relative w-full sm:mt-[-100px] h-screen overflow-hidden">
 
         {/* Background */}
         <div className="absolute inset-0 z-0">
@@ -58,7 +58,7 @@ export default function HeroSection() {
               fill
               priority
               quality={100}
-              className="object-cover transition-opacity duration-1000 ease-in-out"
+              className="object-cover transition-opacity duration-900 ease-in-out"
               sizes="100vw"
             />
             <div className="absolute inset-0 bg-black/20" />
@@ -85,16 +85,16 @@ export default function HeroSection() {
               Each photoshoot blends artistic vision with heartfelt emotion, turning your journey into timeless visual stories.
             </p>
 
-            <div className="flex flex-wrap gap-2 sm:gap-3 md:gap-2 mt-[-12px] md:mb-2 4xl:mt-6 4k:mt-10">
+            <div className="flex flex-wrap gap-3 sm:gap-3 md:gap-2 mt-[-12px] md:mb-2 4xl:mt-6 4k:mt-10">
   <Link
     href="/#Contact"
-    className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 text-white font-bold py-2 2xl:p-6 px-3 sm:py-2.5 sm:px-4 md:py-1 md:px-1 rounded-lg shadow text-xs sm:text-sm md:text-xs 2xl:text-2xl 3xl:text-xl 4xl:text-2xl 4k:text-4xl transition-colors duration-300"
+    className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 text-white text-xs font-bold py-2 2xl:p-6 px-2 sm:py-2.5 sm:px-4 md:py-3 md:px-3 rounded-lg shadow sm:text-sm md:text-xm 2xl:text-2xl 3xl:text-xl 4xl:text-2xl 4k:text-4xl transition-colors duration-300"
   >
     Book Your Session
   </Link>
   <Link
     href="/#gallery"
-    className="border-2 border-white text-white hover:bg-white hover:text-pink-500 font-bold py-2 px-3 sm:py-2.5 sm:px-4 md:py-1 md:px-2 2xl:p-6 rounded-lg shadow text-xs sm:text-sm md:text-xs 2xl:text-2xl 3xl:text-xl 4xl:text-2xl 4k:text-4xl transition-colors duration-300"
+    className="border-2 border-white text-white hover:bg-white hover:text-pink-500 font-bold py-2 px-2  text-xs sm:py-2.5 sm:px-4 md:py-2 md:px-3 2xl:p-6 rounded-lg shadow sm:text-sm md:text-xm 2xl:text-2xl 3xl:text-xl 4xl:text-2xl 4k:text-4xl transition-colors duration-300"
   >
     View Gallery
   </Link>
@@ -127,9 +127,9 @@ export default function HeroSection() {
                   ))}
                 </div>
                 <div className="text-white text-xs sm:text-sm md:text-base 2xl:text-lg 3xl:text-xl 4xl:text-2xl 4k:text-4xl whitespace-nowrap">
-                  <p className="font-extrabold text-sm sm:text-lg md:text-lg lg:text-2xl 3xl:text-3xl 4xl:text-4xl 4k:text-6xl text-pink-400">1000+ clients</p>
+                  <p className="font-extrabold text-sm sm:text-lg md:text-lg lg:text-2xl 3xl:text-3xl 4xl:text-4xl 4k:text-6xl text-pink-500">1000+ clients</p>
                   <p className="text-xs sm:text-sm 2xl:text-base 3xl:text-lg 4xl:text-xl 4k:text-3xl">
-                    Happy Clients with <span className="font-bold text-pink-400">4.7 out of 5</span>
+                    Happy Clients with <span className="font-bold text-pink-500">4.7 out of 5</span>
                   </p>
                 </div>
               </div>

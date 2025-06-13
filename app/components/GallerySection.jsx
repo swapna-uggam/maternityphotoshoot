@@ -33,10 +33,10 @@ export default function GallerySection() {
   return (
     <section id="gallery" ref={galleryRef} className="bg-white py-10 px-3 sm:px-6 md:mt-[-20px] md:py-10">
       <div className="max-w-5xl mx-auto mt-[-65px] md:mt-[-30px] text-center mb-10">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-3">
           Maternity Photography Gallery
         </h2>
-        <p className="text-sm sm:text-base text-gray-600">
+        <p className="text-xs sm:text-base 2xl:text-4xl text-gray-600">
           Browse our collection of beautiful maternity photoshoots
         </p>
       </div>
@@ -61,7 +61,7 @@ export default function GallerySection() {
 
       <div className="text-center mt-6">
         <button onClick={handleToggle}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-300 text-sm sm:text-base">
+          className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded transition duration-300 text-sm sm:text-base">
           {showAll ? '← View Less' : '→ View More'}
         </button>
       </div>

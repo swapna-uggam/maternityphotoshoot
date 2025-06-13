@@ -62,14 +62,14 @@ export default function UnderstandingPrices() {
   ];
 
   return (
-    <main className="bg-gradient-to-b from-pink-50 via-white to-pink-50 py-12 sm:py-16 px-4 sm:px-6  md:px-12 md:mb-[-50px] lg:px-20 font-sans text-gray-900">
+    <main className="bg-gradient-to-b from-pink-50 via-white to-pink-50 py-4 sm:py-16 mt-[-14px] px-4 sm:px-6  md:px-12 md:mb-[-50px] lg:px-20 font-sans text-gray-900">
       <div className="max-w-full mx-auto">
-        <h1 className="mb-4 text-5xl sm:text-6xl md:text-2xl lg:text-7xl xl:text-4xl 2xl:text-9xl font-bold text-center md:-mt-10 text-black sm:mb-12 tracking-wide drop-shadow-md">
+        <h1 className="mb-4 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-center md:-mt-10 text-black sm:mb-12 tracking-wide drop-shadow-md">
   Understanding Our Pricing
 </h1>
 
 
-        <p className="text-sm sm:text-base md:-mt-10 md:text-lg text-center text-black mb-10 max-w-3xl mx-auto font-medium">
+        <p className="text-xs sm:text-base 2xl:text-4xl md:-mt-10 md:text-lg text-center text-black mb-10 max-w-3xl mx-auto font-medium">
           Transparent Breakdown of What Makes Our Maternity Photoshoots Exceptional Across the UK
         </p>
 
@@ -77,7 +77,7 @@ export default function UnderstandingPrices() {
           {/* Vertical spine line */}
           <div
             aria-hidden="true"
-            className="hidden md:block absolute top-0 bottom-0 left-1/2 w-1 bg-pink-300 opacity-30 -translate-x-1/2"
+            className="hidden md:block absolute left-1/2 w-1 bg-pink-300 opacity-30 -translate-x-1/2"
           />
 
           {sections.map(({ icon, title, items }, idx) => (
@@ -85,7 +85,7 @@ export default function UnderstandingPrices() {
               key={title}
               className={`
                 relative bg-white rounded-lg
-                p-4 sm:p-6 md:p-8
+                p-2 sm:p-6 md:p-8
                 shadow-[0_0_15px_rgba(219,39,119,0.15)]
                 transition-transform duration-300
                 hover:scale-[1.03]
@@ -105,13 +105,13 @@ export default function UnderstandingPrices() {
             >
               {/* Responsive header layout for mobile */}
               <header className="flex flex-col xs:flex-col sm:flex-col md:flex-row items-start md:items-center mb-4 sm:mb-6 gap-2 sm:gap-4">
-                <span className="text-xl xs:text-2xl sm:text-3xl md:text-4xl">{icon}</span>
-                <h2 className="text-sm xs:text-xm sm:text-2xl md:text-2xl font-semibold text-black border-b-2 sm:border-b-4 border-pink-400 pb-1">
+                <span className="text-sm xs:text-2xl sm:text-3xl md:text-4xl">{icon}</span>
+                <h2 className="text-[11px] xs:text-xm sm:text-2xl md:text-2xl font-semibold text-black border-b-2 sm:border-b-4 border-pink-400 pb-1">
                   {title}
                 </h2>
               </header>
 
-              <ul className="space-y-3 sm:space-y-4 list-disc list-inside text-gray-700 text-xs sm:text-base md:text-base leading-relaxed">
+              <ul className="space-y-[3px] sm:space-y-4 list-disc list-inside text-gray-700 text-[9px] sm:text-base md:text-base leading-relaxed">
                 {items.map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}

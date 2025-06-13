@@ -52,10 +52,10 @@ export default function ServicesSection() {
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-black mb-4">
+          <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black mb-4">
             Our Maternity Photography Services
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-xs sm:text-base 2xl:text-4xl max-w-2xl mx-auto">
             Explore a variety of photography styles tailored to your comfort and preferences.
           </p>
         </div>
@@ -72,8 +72,8 @@ export default function ServicesSection() {
                   className="object-cover"/>
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold text-black mb-1">{service.title}</h3>
-                <p className="text-sm text-gray-600">{service.description}</p>
+                <h3 className="text-sm font-semibold text-black mb-1">{service.title}</h3>
+                <p className="text-xs text-gray-600">{service.description}</p>
               </div>
             </div>
           ))}

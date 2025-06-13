@@ -293,10 +293,10 @@ export default function WhyChooseUs() {
   return (
     <section id="about" className="py-20 md:py-24 mt-[-50px] bg-gray-50 rounded-xl px-4 md:px-6">
       <div className="max-w-4xl mx-auto text-center mb-14">
-        <h2 className="text-3xl md:text-2xl font-bold text-gray-900 mb-4">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4">
           Why Choose Our Maternity Photography Services?
         </h2>
-        <p className="text-gray-600 text-lg md:text-lg">
+        <p className="text-gray-600 text-xs sm:text-base 2xl:text-4xl">
           We specialize in creating stunning, artistic images that celebrate your pregnancy journey.
         </p>
       </div>
@@ -320,12 +320,12 @@ export default function WhyChooseUs() {
 
 function FeatureCard({ feature }) {
   return (
-    <div className="group bg-white mt-[-20px] p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-      <div className="w-14 h-14 flex items-center justify-center bg-pink-100 text-blue-500 rounded-full mb-4 transition-transform duration-500 group-hover:rotate-6">
+    <div className="group bg-white mt-[-20px] p-3 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+      <div className="sm:w-14 sm:h-14 w-5 h-5 flex items-center justify-center bg-pink-100 text-blue-500 rounded-full mb-4 transition-transform duration-500 group-hover:rotate-6">
         {feature.icon}
       </div>
-      <h3 className="text-lg font-semibold text-gray-900 mb-2">{feature.title}</h3>
-      <p className="text-gray-600 text-sm whitespace-pre-line">
+      <h3 className="text-xs font-semibold text-gray-900 mb-2">{feature.title}</h3>
+      <p className="text-gray-600 text-[8px] md:text-sm whitespace-pre-line">
         {feature.description.replace(/\.([A-Z])/g, '. $1')} {/* Improves spacing */}
       </p>
     </div>

@@ -141,12 +141,12 @@ export default function PackageSection() {
     <section id="packages" className="py-12 mt-[-40px] md:py-16 bg-pink-50">
       <div className="mx-auto px-4 md:px-6 2xl:max-w-[1600px]">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-2xl lg:text-4xl 2xl:text-5xl font-bold text-black text-center mb-8 md:mb-12">
-          Half Saree Photography Packages
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black text-center mb-8 md:mb-12">
+          Maternity Photography Packages
         </h2>
 
         {/* Subtext */}
-        <p className="text-center text-gray-600 text-xs md:text-base 2xl:text-xl max-w-3xl mx-auto mb-8 md:mb-12">
+        <p className="text-center text-gray-600 text-xs sm:text-base 2xl:text-4xl mt-[-30px] xl:mt-[-30px] mx-auto mb-8 md:mb-12">
           Affordable pricing options for every need. All packages include high-resolution edited images with print release.
         </p>
 
@@ -171,7 +171,7 @@ export default function PackageSection() {
                 name: "Premium",
                 price: "£349",
                 popular: true,
-                color: "bg-gradient-to-br from-pink-500 to-pink-500",
+                color: "bg-gradient-to-br from-pink-400 to-pink-400",
                 textColor: "text-white",
                 features: [
                   "2 hour photoshoot",
@@ -249,7 +249,7 @@ export default function PackageSection() {
                       >
                         <svg
                           className={`w-4 h-4 md:w-5 md:h-5 2xl:w-6 2xl:h-6 ${
-                            !plan.popular && i >= 4 ? "text-gray-400" : "text-pink-600"
+                            !plan.popular && i >= 4 ? "text-gray-400" : "text-pink-500"
                           } mr-2 mt-0.5 flex-shrink-0`}
                           fill="none"
                           stroke="currentColor"
@@ -298,7 +298,7 @@ export default function PackageSection() {
             <div className="text-center">
               <Link
                 href="#Contact"
-                className="inline-block bg-gradient-to-br from-pink-400 to-pink-600 text-white font-bold py-2 px-3 md:py-3 md:px-6 2xl:py-4 2xl:px-8 rounded-lg hover:text-black hover:bg-pink-100 transition duration-300 text-xs md:text-base 2xl:text-lg"
+                className="inline-block bg-gradient-to-br from-pink-500 to-pink-400 text-white font-bold py-2 px-3 md:py-3 md:px-6 2xl:py-4 2xl:px-8 rounded-lg hover:text-black hover:bg-pink-100 transition duration-300 text-xs md:text-base 2xl:text-lg"
               >
                 Request Custom Package
               </Link>

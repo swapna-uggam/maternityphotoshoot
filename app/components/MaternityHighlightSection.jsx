@@ -7,11 +7,11 @@ export default function MaternityHighlightSection() {
     <div className="w-full">
       {/* Maternity message ABOVE video */}
       <div className="w-full mt-[-50px] bg-white text-black text-center py-6 px-4">
-        <h2 className="text-2xl sm:text-3xl md:text-2xl lg:text-5xl xl:text-4xl 2xl:text-7xl font-bold text-black mb-2">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black mb-2">
   Celebrate Your Journey with Maternity Photography!
 </h2>
 
-        <p className="text-sm sm:text-base text-gray-700 font-medium">
+        <p className="text-xs sm:text-base 2xl:text-4xl text-gray-700 font-medium">
           See How We Turn Moments into Everlasting Memories
         </p>
       </div>
@@ -33,7 +33,7 @@ export default function MaternityHighlightSection() {
 
         {/* Foreground content */}
         <div className="relative z-10 flex flex-col justify-center items-center text-center h-full px-6 sm:px-10 lg:px-20 text-white">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-pink-300 mb-2 drop-shadow-md">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-medium text-pink-500 mb-2 drop-shadow-md">
             Celebrate the Beauty of Motherhood
           </h2>
 
@@ -48,7 +48,7 @@ export default function MaternityHighlightSection() {
 
           <Link
             href="/#gallery"
-            className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-lg text-sm sm:text-base shadow-lg transition duration-300"
+            className="bg-pink-600 hover:bg-pink-500 text-white font-bold py-2 px-6 rounded-lg text-sm sm:text-base shadow-lg transition duration-300"
           >
             ✨ View Our Maternity Gallery
           </Link>
