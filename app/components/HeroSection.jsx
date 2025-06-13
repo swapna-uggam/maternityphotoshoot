@@ -85,7 +85,7 @@ export default function HeroSection() {
               Each photoshoot blends artistic vision with heartfelt emotion, turning your journey into timeless visual stories.
             </p>
 
-            <div className="flex flex-wrap gap-3 sm:gap-3 md:gap-2 mt-[-12px] md:mb-2 4xl:mt-6 4k:mt-10">
+            <div className="flex flex-wrap gap-3 sm:gap-3 md:gap-2 mt-[10px] md:mb-2 4xl:mt-6 4k:mt-10">
   <Link
     href="/#Contact"
     className="bg-gradient-to-r from-blue-500 to-pink-500 hover:from-pink-600 hover:to-blue-600 text-white text-xs font-bold py-2 2xl:p-6 px-2 sm:py-2.5 sm:px-4 md:py-3 md:px-3 rounded-lg shadow sm:text-sm md:text-xm 2xl:text-2xl 3xl:text-xl 4xl:text-2xl 4k:text-4xl transition-colors duration-300"
