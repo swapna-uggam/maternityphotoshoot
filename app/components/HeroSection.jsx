@@ -104,10 +104,10 @@ export default function HeroSection() {
 
           {/* RIGHT */}
           <div className="w-full md:w-1/2 flex flex-col items-center mt-[-2px] md:items-end gap-4 sm:gap-6 md:gap-8 4k:gap-12 sm:mt-8 md:mt-0">
-            <div className="flex flex-col md:items-end gap-4 sm:gap-6 md:gap-4 4k:gap-12 w-full mt-6 sm:mt-8 md:mt-0">
+            <div className="flex flex-col md:items-end gap-4 mt-[-10px] sm:gap-6 md:gap-4 4k:gap-12 w-full sm:mt-8 md:mt-0">
 
               {/* Overlapping Images */}
-              <div className="flex items-center justify-center 2xl:p-32 md:justify-end gap-3 sm:gap-4 md:gap-2 4k:gap-8">
+              <div className="flex items-center mt-[-10px] justify-center 2xl:p-32 md:justify-end gap-3 sm:gap-4 md:gap-2 4k:gap-8">
                 <div className="flex -space-x-2 sm:-space-x-3 md:-space-x-4 4k:-space-x-6">
                   {stackedImages.map((src, i) => (
                     <motion.div
