@@ -7,10 +7,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 const images = ['/cha2.jpg', '/cha1.jpg', '/cha5.jpg'];
 const languages = [
   { text: 'Cherish the Bump Journey' },
-  { text: 'గర్భయాత్రను అందంగా గుర్తుపెట్టుకోండి' },
-  { text: 'கர்ப்பகாலம் ஒரு அழகு பயண' },
-  { text: 'ಗರ್ಭಕಾಲದ ಸೌಂದರ್ಯದ ಪ್ರಯಾಣ' },
-  { text: 'ഗർഭസന്ദർഭം ഓർമ്മകളായി' },
+  { text: '"ఓ కదలిక…ఓ క్లిక్…ఓ జ్ఞాపకం!"'},
+  { text: 'கர்ப்பகாலம் ஒரு அழகு பயண'},
+  { text: 'ಗರ್ಭಕಾಲದ ಸೌಂದರ್ಯದ ಪ್ರಯಾಣ'},
+  { text: 'ഗർഭസന്ദർഭം ഓർമ്മകളായി'},
 ];
 const reviews = [
   { name: "Aarav S.", image: "/studio.jpg", rating: 5, text: "Absolutely loved the shoot, highly recommended!" },
