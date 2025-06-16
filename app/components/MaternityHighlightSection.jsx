@@ -7,11 +7,11 @@ export default function MaternityHighlightSection() {
     <div className="w-full">
       {/* Maternity message ABOVE video */}
       <div className="w-full mt-[-50px] bg-white text-black text-center py-6 px-4">
-        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black mb-2">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black mb-2">
   Celebrate Your Journey with Maternity Photography!
 </h2>
 
-        <p className="text-xs sm:text-base 2xl:text-4xl text-gray-700 font-medium">
+        <p className="text-xs sm:text-base 2xl:text-3xl text-gray-700 font-medium">
           See How We Turn Moments into Everlasting Memories
         </p>
       </div>

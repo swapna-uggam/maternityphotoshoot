@@ -64,12 +64,12 @@ export default function UnderstandingPrices() {
   return (
     <main className="bg-gradient-to-b from-pink-50 via-white to-pink-50 py-4 sm:py-16 mt-[-14px] px-4 sm:px-6  md:px-12 md:mb-[-50px] lg:px-20 font-sans text-gray-900">
       <div className="max-w-full mx-auto">
-        <h1 className="mb-4 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-center md:-mt-10 text-black sm:mb-12 tracking-wide drop-shadow-md">
+        <h1 className="mb-4 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-center md:-mt-10 text-black sm:mb-12 tracking-wide drop-shadow-md">
   Understanding Our Pricing
 </h1>
 
 
-        <p className="text-xs sm:text-base 2xl:text-4xl md:-mt-10 md:text-lg text-center text-black mb-10 max-w-3xl mx-auto font-medium">
+        <p className="text-xs sm:text-base 2xl:text-3xl md:-mt-10 md:text-lg text-center text-gray-700 mb-10 max-w-3xl mx-auto font-medium">
           Transparent Breakdown of What Makes Our Maternity Photoshoots Exceptional Across the UK
         </p>
 

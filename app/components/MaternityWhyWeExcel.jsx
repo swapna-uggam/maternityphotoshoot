@@ -47,10 +47,10 @@ export default function MaternityWhyWeExcel() {
   <div className="w-full md:mb-[-70px] mx-auto">
     {/* Heading */}
     <div className="text-center mb-10">
-      <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl mt-[-50px] font-bold bg-gradient-to-r text-black-transparent bg-clip-text drop-shadow-lg">
+      <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl mt-[-50px] font-bold bg-gradient-to-r text-black-transparent bg-clip-text drop-shadow-lg">
         Why We Excel in Maternity Photography
       </h2>
-      <p className="mt-4 text-xs sm:text-base 2xl:text-4xl text-gray-600">
+      <p className="mt-4 text-xs sm:text-base 2xl:text-3xl text-gray-600">
         💙 Trusted by 1000+ Moms to Capture Their Beautiful Journey 💙
       </p>
     </div>

@@ -141,12 +141,12 @@ export default function PackageSection() {
     <section id="packages" className="py-12 mt-[-40px] md:py-16 bg-pink-50">
       <div className="mx-auto px-4 md:px-6 2xl:max-w-[1600px]">
         {/* Heading */}
-        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black text-center mb-8 md:mb-12">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black text-center mb-8 md:mb-12">
           Maternity Photography Packages
         </h2>
 
         {/* Subtext */}
-        <p className="text-center text-gray-600 text-xs sm:text-base 2xl:text-4xl mt-[-30px] xl:mt-[-30px] mx-auto mb-8 md:mb-12">
+        <p className="text-center text-gray-600 text-xs sm:text-base 2xl:text-3xl mt-[-30px] xl:mt-[-30px] mx-auto mb-8 md:mb-12">
           Affordable pricing options for every need. All packages include high-resolution edited images with print release.
         </p>
 

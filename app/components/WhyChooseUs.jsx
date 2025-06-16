@@ -293,10 +293,10 @@ export default function WhyChooseUs() {
   return (
     <section id="about" className="py-20 md:py-24 mt-[-50px] bg-gray-50 rounded-xl px-4 md:px-6">
       <div className="max-w-4xl mx-auto text-center mb-14">
-        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-900 mb-4">
           Why Choose Our Maternity Photography Services?
         </h2>
-        <p className="text-gray-600 text-xs sm:text-base 2xl:text-4xl">
+        <p className="text-gray-600 text-xs sm:text-base 2xl:text-3xl">
           We specialize in creating stunning, artistic images that celebrate your pregnancy journey.
         </p>
       </div>

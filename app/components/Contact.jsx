@@ -416,8 +416,8 @@ export default function Contact() {
 
       <main className=" mx-auto px-4 lg:pb-1 sm:px-6 lg:px-8">
         <div className=" mx-auto text-center mb-16">
-          <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4">Contact Our Maternity Photographers</h1>
-          <p className="text-gray-600 text-xs sm:text-base 2xl:text-4xl">
+          <h1 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-900 mb-4">Contact Our Maternity Photographers</h1>
+          <p className="text-gray-600 text-xs sm:text-base 2xl:text-3xl">
             Fill out the form below to book your maternity photoshoot or ask any questions. We proudly serve all regions across the UK, including London.
           </p>
         </div>

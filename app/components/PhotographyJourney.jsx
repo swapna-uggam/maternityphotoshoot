@@ -50,10 +50,10 @@ export default function PhotographyJourney() {
   return (
     <section className="py-6 px-6 bg-blue-50 rounded-xl">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-gray-900 mb-4 text-center">
+        <h2 className="text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-900 mb-4 text-center">
           Your Photography Journey
         </h2>
-        <p className="text-gray-700 mb-12 text-xs sm:text-base 2xl:text-4xl text-center">
+        <p className="text-gray-700 mb-12 text-xs sm:text-base 2xl:text-3xl text-center">
           Here's what to expect when you work with us
         </p>
 

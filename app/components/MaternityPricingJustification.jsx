@@ -41,11 +41,11 @@ export default function MaternityPricingJustification() {
       <div className="max-w-full mx-full">
         {/* Heading */}
         <div className="text-center mb-16">
-          <h2 className="mt-[-45px] text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-7xl font-bold text-black drop-shadow-lg">
+          <h2 className="mt-[-45px] text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black drop-shadow-lg">
   Why My Prices Are Justified
 </h2>
 
-          <p className="mt-4 text-xs sm:text-base 2xl:text-4xl text-black-700 max-w-2xl mx-auto">
+          <p className="mt-4 text-xs sm:text-base 2xl:text-3xl text-black-700 max-w-2xl mx-auto">
             You're not just paying for photos—you’re investing in a warm, professional, and seamless maternity photography experience available across the UK.
           </p>
         </div>
