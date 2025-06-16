@@ -90,8 +90,8 @@ export default function UnderstandingPrices() {
                 transition-transform duration-300
                 hover:scale-[1.03]
                 cursor-default
-                before:absolute before:top-0 before:bottom-0 before:w-6 before:bg-gradient-to-r before:from-pink-200 before:to-transparent
-                after:absolute after:top-0 after:bottom-0 after:w-6 after:bg-gradient-to-l after:from-pink-200 after:to-transparent
+                before:absolute before:top-0 before:bottom-0 before:w-6 before:bg-gradient-to-r before:from-pink-100 before:to-transparent
+                after:absolute after:top-0 after:bottom-0 after:w-6 after:bg-gradient-to-l after:from-pink-100 after:to-transparent
                 ${idx === 0 ? 'before:left-0 after:hidden rounded-r-none' : ''}
                 ${idx === sections.length - 1 ? 'after:right-0 before:hidden rounded-l-none' : ''}
                 ${idx !== 0 && idx !== sections.length - 1 ? 'before:left-0 after:right-0' : ''}

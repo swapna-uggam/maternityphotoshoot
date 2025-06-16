@@ -28,9 +28,9 @@ export default function MaternityPhotography() {
         <MaternityWhyWeExcel/>
         <PackagesSection/>
         <MaternityPricingJustification/>
+        <ServicesSection/>
         <Button/>
         <UnderstandingPrices/>
-         <ServicesSection/>
         <GallerySection/>
         <PhotographyJourney/>
        <Contact/>

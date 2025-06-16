@@ -13,17 +13,17 @@ export default function ServicesSection() {
     {
       title: 'Outdoor Maternity Shoot',
       description: 'Natural settings to capture your glow.',
-      image: '/pin3.jpg',
+      image: '/pin1.jpg',
     },
     {
       title: 'Home Sessions',
       description: 'Comfort of your own space with our mobile setup.',
-      image: '/pin10.jpg',
+      image: '/pin8.jpg',
     },
     {
       title: 'Family Involvement',
       description: 'Include your partner and kids for a full-family memory.',
-      image: '/pin8.jpg',
+      image: '/family1.jpg',
     },
     {
       title: 'Ethnic Theme Shoots',
@@ -33,7 +33,7 @@ export default function ServicesSection() {
     {
       title: 'Black & White Portraits',
       description: 'Timeless and elegant monochrome captures.',
-      image: '/pin7.jpg',
+      image: '/bw.jpg',
     },
     {
       title: 'Creative Concept Shoots',
@@ -43,7 +43,7 @@ export default function ServicesSection() {
     {
       title: 'Couple Maternity Sessions',
       description: 'Cherish the bond through romantic frames.',
-      image: '/pin1.jpg',
+      image: '/pinc.jpg',
     },
   ];
 

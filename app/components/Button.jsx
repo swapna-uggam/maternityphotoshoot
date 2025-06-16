@@ -167,7 +167,7 @@ export default function Button() {
           <button
             onClick={scrollToTop}
             className={`flex flex-col items-center justify-center 
-              bg-gradient-to-br from-blue-500 to-pink-500 
+              bg-blue-500 
               text-white rounded-full p-3 shadow-lg border border-white
               transition-all duration-300 hover:rotate-12 hover:scale-105 ${
                 isAnimating ? "translate-y-[-6px]" : ""
