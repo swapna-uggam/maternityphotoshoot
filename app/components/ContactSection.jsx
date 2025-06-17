@@ -18,13 +18,13 @@ export default function ContactSection() {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4">Connect With Us</h2>
         
         <div className="flex flex-wrap justify-center gap-4 mb-6 text-xl">
-          <Link href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <Link href="https://www.facebook.com/snapuphotography1/" target="_blank" aria-label="Facebook">
             <FaFacebookF className="text-[#1877F2] hover:scale-110 transition" />
           </Link>
-          <Link href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <Link href="https://www.instagram.com/snapuphotography/?hl=en" target="_blank" aria-label="Instagram">
             <FaInstagram className="text-[#E4405F] hover:scale-110 transition" />
           </Link>
-          <Link href="https://youtube.com" target="_blank" aria-label="YouTube">
+          <Link href="https://www.youtube.com/@snapuphotography" target="_blank" aria-label="YouTube">
             <FaYoutube className="text-[#FF0000] hover:scale-110 transition" />
           </Link>
           <Link href="https://wa.me/447933223422" target="_blank" aria-label="WhatsApp">
